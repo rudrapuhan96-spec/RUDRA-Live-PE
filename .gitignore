@@ -1,0 +1,24 @@
+﻿# Generated ISO and build outputs
+outputs/*.iso
+RUDRA-Live-PE-Build/
+backup-before-recovery/
+backup-before-updated-source-*/
+
+# Temporary and backup files
+*.bak
+*.tmp
+*.log
+*.iso
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Generated working files
+outputs/
+work/
+
+# WinPE media and generated images
+media/
+RUDRA-Live-PE/
